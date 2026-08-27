@@ -1,0 +1,30 @@
+.about {
+    justify-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    color: black;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+}
+
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+}

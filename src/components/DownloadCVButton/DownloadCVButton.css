@@ -1,0 +1,47 @@
+.cv-button {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 15px 30px;
+
+    background: #4f8cff;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: all .3s ease;
+
+}
+
+.cv-button:hover {
+
+    background: #6ca2ff;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 10px 20px rgba(79,140,255,.35);
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+}
+
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+}

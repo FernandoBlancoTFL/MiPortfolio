@@ -1,0 +1,144 @@
+.hero{
+    border:1px solid white;
+    border-radius:12px;
+    padding:10px;
+}
+
+.hero-title{
+    /* outline: 2px solid red; */
+
+    height: auto;
+    padding-top: 12px;
+    /* min-height: 1.2em; */
+
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight:600;
+
+    line-height:1.2;
+    letter-spacing:-1px;
+
+    background:linear-gradient(
+        90deg,
+        #00C6FF,
+        #0072FF,
+        #7B61FF,
+        #FF5F6D
+    );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:0 0 25px rgba(123,97,255,.2);
+}
+
+.hero-greeting{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.hero-name{
+    font-size: clamp(2.5rem, 12vw, 4rem);
+    font-weight: 700;
+    /* outline: 2px solid blue; */
+}
+
+.ti-cursor{
+    color:#FF5F6D;
+    -webkit-text-fill-color:#FF5F6D;
+
+    font-size: clamp(2.5rem, 12vw, 4rem) !important;
+    font-weight:inherit !important;
+    line-height:inherit !important;
+}
+
+.hero__description {
+    color: #bdbdbd;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero__cv {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #4f8cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.hero__cv:hover {
+    background: #6ca2ff;
+}
+
+.hero__social{
+    display:flex;
+    gap:12px;
+    
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+
+.social-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    padding:10px 10px;
+    border-radius:12px;
+
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+
+    transition:all .3s ease;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(8px);
+}
+
+.social-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.social-icon{
+    font-size:2rem;
+}
+
+.github:hover{
+
+    background:#24292e;
+
+}
+
+.linkedin:hover{
+
+    background:#0A66C2;
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .hero {
+        max-width:800px;
+        padding: 50px;
+    }
+
+    .hero__social{
+        justify-content:flex-start;
+    }
+}
+
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+}
