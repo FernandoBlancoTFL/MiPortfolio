@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    /* width: 100%; */
 }
 
 html{
@@ -31,36 +32,6 @@ main {
     flex-wrap: wrap;
 }
 
-.profile-image-content {
-    justify-items: center;
-    align-content: center;
-    padding-bottom: 20px;
-    width: 30%;
-    min-height: 480px;
-}
-
-.profile-image{
-
-    width:240px;
-
-    height:240px;
-
-    border-radius:50%;
-
-    overflow:hidden;
-
-}
-
-.profile-image img{
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:cover;
-
-}
-
 /* Tablet */
 @media (min-width: 768px) {
 }
@@ -69,7 +40,7 @@ main {
 /* Desktop */
 @media (min-width: 1024px) {
     .hero_section {
-        padding: 0 120px;
+        padding: 0 300px;
     }
 }
 

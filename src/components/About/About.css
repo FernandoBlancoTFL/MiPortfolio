@@ -3,16 +3,104 @@
     background-color: white;
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
+    padding-bottom: 40px;
 }
 
 .about-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    width: 50%;
     color: black;
+}
+
+.profile-image-content {
+    justify-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+    width: 30%;
+    min-height: 480px;
+}
+
+.profile-image{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    overflow:hidden;
+    border: 1px solid red;
+}
+
+.profile-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+}
+
+.techs-frontend {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 15px 30px;
+    min-width: 260px;
+}
+
+.techs-frontend p {
+    margin-bottom: 25px;
+}
+
+.techs-backend {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 15px 30px;
+    min-width: 260px;
+}
+
+.techs-backend p {
+    margin-bottom: 25px;
+}
+
+.techs-other {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 15px 30px;
+    min-width: 260px;
+}
+
+.techs-other p {
+    margin-bottom: 25px;
+}
+
+.techs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tech img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.tech span {
+  font-size: 0.9rem;
 }
 
 /* Tablet */
@@ -22,6 +110,14 @@
 
 /* Desktop */
 @media (min-width: 1024px) {
+    .about-container {
+        width: 50%;
+        flex-wrap: nowrap;
+    }
+
+    .techs {
+        /* width: 50%; */
+    }
 }
 
 

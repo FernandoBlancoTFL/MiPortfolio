@@ -1,5 +1,5 @@
 import "./DownloadCVButton.css";
-import { FaDownload } from "react-icons/fa";
+import { LuDownload } from "react-icons/lu";
 
 function DownloadCVButton() {
   return (
@@ -8,7 +8,7 @@ function DownloadCVButton() {
       download="Fernando_Blanco_CV.pdf"
       className="cv-button"
     >
-      <FaDownload />
+      <LuDownload />
       <span>Curriculum</span>
     </a>
   );

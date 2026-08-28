@@ -9,7 +9,6 @@
 
     height: auto;
     padding-top: 12px;
-    /* min-height: 1.2em; */
 
     font-family: "Poppins", sans-serif;
     font-size: clamp(2.5rem, 6vw, 4rem);
@@ -76,7 +75,7 @@
 
 .hero__social{
     display:flex;
-    gap:12px;
+    gap:10px;
     
     justify-content:center;
     flex-wrap:nowrap;

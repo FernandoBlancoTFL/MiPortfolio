@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Hero3D from "./components/Hero3D";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         </section>
         
         <About/>
+        <Projects />
         
       </main>
     </>
