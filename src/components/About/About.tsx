@@ -5,7 +5,7 @@ import "./About.css"
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
         <ScrollReveal>
             <div className="about-container">
                 <div>
@@ -15,7 +15,9 @@ function About() {
                     <div>
                         <div className="about-message">
                             <p>¡Hola! soy Fernando Blanco, <b>desarrollador fullstack</b> enfocado principalmente en el desarrollo Backend y aplicaciones web.</p>
+                            <br />
                             <p>Soy <b>Ingeniero en Informática</b> y continúo fortaleciendo mi perfil como desarrollador de software, incorporando nuevas tecnologías y buenas prácticas para crear soluciones eficientes.</p>
+                            <br />
                             <p>Algo que me define es que soy una persona comprometida, curiosa y orientada a la resolución de problemas. Busco seguir creciendo profesionalmente, asumir nuevos retos y formar parte de un equipo de desarrollo donde pueda aportar, aprender y continuar creciendo</p>
                         </div>
                     </div>

@@ -77,22 +77,61 @@
 
 .project-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 25px;
 }
 
 .project-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 120px;
+    min-height: 44px;
     padding: 10px 20px;
-    border: 1px solid white;
+
+    background-color: #4f8cff;
+    border: 1px solid #4f8cff;
     border-radius: 8px;
+
     color: white;
     text-decoration: none;
-    transition: 0.2s ease;
+    font-weight: 500;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
-.project-buttons a:hover {
-    background-color: white;
-    color: black;
+.project-buttons a span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.demo-icon {
+    display: block;
+    font-size: 20px;
+}
+
+.github-icon {
+    display: block;
+    font-size: 20px;
+}
+
+@media (hover: hover) {
+    .project-buttons a:hover {
+        background-color: #3b78e7;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(79, 140, 255, 0.25);
+    }
+}
+
+.project-buttons a:active {
+    transform: translateY(-1px);
 }
 
 .project-image {

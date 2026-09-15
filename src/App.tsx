@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Hero3D from "./components/Hero3D";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import StarBackground from "./components/StarBackground";
 import { useEffect, useState } from "react";
 import { ChevronDown, ArrowUp } from "lucide-react";
@@ -27,8 +29,8 @@ function App() {
     <>
       <StarBackground />
       <Navbar />
-      <main id="top">
-        <section className="hero_section">
+      <main>
+        <section className="hero_section" id="start">
           <Hero />
           <Hero3D />
           <a
@@ -44,11 +46,13 @@ function App() {
 
         <About/>
         <Projects />
+        <Contact/>
+        <Footer/>
       </main>
 
       {showScrollTop && (
         <a
-          href="#top"
+          href="#start"
           className="scroll_top"
           aria-label="Volver al inicio"
         >

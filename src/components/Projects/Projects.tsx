@@ -1,11 +1,13 @@
 import dataAnalysisImage from "../../assets/desktop.png";
 import ecommerceImage from "../../assets/Frontpage.png";
 import ScrollReveal from "../ScrollReveal";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <section className="projects-container">
         <h2>Proyectos</h2>
 
@@ -31,14 +33,14 @@ function Projects() {
                 <span>Tailwind CSS</span>
               </div>
               <div className="project-buttons">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Ver demo
-              </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span><FiExternalLink className="demo-icon" /> Demo</span>
+                  </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
-            </div>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span><FaGithub className="github-icon" /> Código</span>
+                  </a>
+              </div>
             </div>
 
             <div className="project-image">
@@ -67,14 +69,15 @@ function Projects() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  Ver demo
-                </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span><FiExternalLink className="demo-icon" /> Demo</span>
+                  </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  GitHub
-                </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span><FaGithub className="social-icon" /> Código</span>
+                  </a>
               </div>
+
             </div>
 
             <div className="project-image">
