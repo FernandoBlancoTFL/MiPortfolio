@@ -27,24 +27,32 @@ main {
 }
 
 .hero_section {
+    width: 100%;
     min-height: 91.2vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
+    .hero_section {
+        align-items: center;
+    }
 }
 
 
 /* Desktop */
 @media (min-width: 1024px) {
     .hero_section {
-        padding: 0 300px;
+        padding: 0 clamp(0px, 2vw, 40px);
     }
 }
 
 
 /* Pantallas grandes */
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
+    .hero_section {
+        padding: 0 clamp(0px, 8vw, 250px);
+    }
 }

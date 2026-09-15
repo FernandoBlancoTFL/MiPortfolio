@@ -1,5 +1,5 @@
 .hero{
-    border:1px solid white;
+    /* border:1px solid white; */
     border-radius:12px;
     padding:10px;
 }
@@ -37,7 +37,7 @@
 }
 
 .hero-name{
-    font-size: clamp(2.5rem, 12vw, 4rem);
+    font-size: clamp(2.5rem, 12vw, 4.2rem);
     font-weight: 700;
     /* outline: 2px solid blue; */
 }
@@ -55,7 +55,7 @@
     color: #bdbdbd;
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .hero__cv {
@@ -122,14 +122,27 @@
 
 /* Tablet */
 @media (min-width: 768px) {
+    .hero {
+        max-width:500px;
+        padding: 30px;
+    }
 }
 
 
 /* Desktop */
 @media (min-width: 1024px) {
     .hero {
-        max-width:800px;
+        max-width:600px;
         padding: 50px;
+        height: 450px;
+    }
+
+    .hero-greeting{
+        font-size: 1.9rem;
+    }
+
+    .hero__description {
+        margin-bottom: 20px;
     }
 
     .hero__social{
@@ -139,5 +152,16 @@
 
 
 /* Pantallas grandes */
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
+    .hero {
+        max-width:700px;
+    }
+
+    .hero-greeting{
+        font-size: 2rem;
+    }
+
+    .hero__description {
+        margin-bottom: 10px;
+    }
 }
