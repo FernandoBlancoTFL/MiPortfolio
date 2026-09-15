@@ -1,6 +1,6 @@
 import { useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 import * as THREE from "three";
 
 const rocketModel = "/rocket.glb";
@@ -28,7 +28,7 @@ function Flame({ position }: { position: [number, number, number] }) {
             ref={flameRef}
             position={position}
         >
-            <coneGeometry args={[0.3, 1.2, 8]} />
+            <coneGeometry args={[0.2, 0.7, 8]} />
 
             <meshStandardMaterial
                 color="#ff6b00"
@@ -63,7 +63,7 @@ function Rocket() {
 
                 <primitive
                     object={scene}
-                    scale={0.003}
+                    scale={0.0022}
                 />
 
                 <Flame position={flamePosition} />

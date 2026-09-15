@@ -1,5 +1,6 @@
 import dataAnalysisImage from "../../assets/desktop.png";
 import ecommerceImage from "../../assets/Frontpage.png";
+import ScrollReveal from "../ScrollReveal";
 import "./Projects.css";
 
 function Projects() {
@@ -8,63 +9,28 @@ function Projects() {
       <section className="projects-container">
         <h2>Proyectos</h2>
 
-        <div className="project">
-          <div className="project-info">
-            <h3>Plataforma de análisis de datos con agentes de IA</h3>
+        <ScrollReveal>
+          <div className="project">
+            <div className="project-info">
+              <h3>Plataforma de análisis de datos con agentes de IA</h3>
 
-            <p>
-              Plataforma web para el análisis de datos mediante agentes de inteligencia artificial. 
-              Permite explorar y obtener información a partir de conjuntos de datos utilizando lenguaje natural, 
-              automatizando tareas de análisis 
-              y facilitando la interpretación de resultados sin necesidad de realizar consultas manualmente.
-            </p>
-            <div className="project-technologies">
-              <p>TECNOLOGÍAS</p>
-              <span>Python</span>
-              <span>FastAPI</span>
-              <span>LangGraph</span>
-              <span>PostgreSQL</span>
-              <span>Next.js</span>
-              <span>React</span>
-              <span>Tailwind CSS</span>
-            </div>
-            <div className="project-buttons">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              Ver demo
-            </a>
-
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-          </div>
-          </div>
-
-          <div className="project-image">
-            <img src={dataAnalysisImage} alt="Plataforma de análisis de datos" />
-          </div>
-        </div>
-
-        <div className="project">
-          <div className="project-info">
-            <h3>E-commerce Full Stack</h3>
-
-            <p>
-              Aplicación web desarrollada para gestionar
-              productos, usuarios y compras, con una arquitectura full stack que
-              integra un backend desarrollado en .NET y una interfaz web construida
-              con React.
-            </p>
-
-            <div className="project-technologies">
-              <p>TECNOLOGÍAS</p>
-              <span>C#</span>
-              <span>.NET</span>
-              <span>Entity Framework Core</span>
-              <span>React</span>
-              <span>SQL Server</span>
-            </div>
-
-            <div className="project-buttons">
+              <p>
+                Plataforma web para el análisis de datos mediante agentes de inteligencia artificial. 
+                Permite explorar y obtener información a partir de conjuntos de datos utilizando lenguaje natural, 
+                automatizando tareas de análisis 
+                y facilitando la interpretación de resultados sin necesidad de realizar consultas manualmente.
+              </p>
+              <div className="project-technologies">
+                <p>TECNOLOGÍAS</p>
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>LangGraph</span>
+                <span>PostgreSQL</span>
+                <span>Next.js</span>
+                <span>React</span>
+                <span>Tailwind CSS</span>
+              </div>
+              <div className="project-buttons">
               <a href="#" target="_blank" rel="noopener noreferrer">
                 Ver demo
               </a>
@@ -73,12 +39,49 @@ function Projects() {
                 GitHub
               </a>
             </div>
-          </div>
+            </div>
 
-          <div className="project-image">
-            <img src={ecommerceImage} alt="E-commerce Full Stack" />
+            <div className="project-image">
+              <img src={dataAnalysisImage} alt="Plataforma de análisis de datos" />
+            </div>
           </div>
-        </div>
+        
+          <div className="project">
+            <div className="project-info">
+              <h3>E-commerce Full Stack</h3>
+
+              <p>
+                Aplicación web desarrollada para gestionar
+                productos, usuarios y compras, con una arquitectura full stack que
+                integra un backend desarrollado en .NET y una interfaz web construida
+                con React.
+              </p>
+
+              <div className="project-technologies">
+                <p>TECNOLOGÍAS</p>
+                <span>C#</span>
+                <span>.NET</span>
+                <span>Entity Framework Core</span>
+                <span>React</span>
+                <span>SQL Server</span>
+              </div>
+
+              <div className="project-buttons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Ver demo
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="project-image">
+              <img src={ecommerceImage} alt="E-commerce Full Stack" />
+            </div>
+          </div>
+        </ScrollReveal>
         
       </section>
     </section>

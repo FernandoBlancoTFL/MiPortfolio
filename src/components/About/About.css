@@ -16,6 +16,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    justify-self: center;
     width: 100%;
     margin-bottom: 8px;
 }
@@ -49,7 +50,7 @@
     height:300px;
     border-radius:50%;
     overflow:hidden;
-    border: 1px solid red;
+    border: 2px solid #64748b;
 }
 
 .profile-image img{

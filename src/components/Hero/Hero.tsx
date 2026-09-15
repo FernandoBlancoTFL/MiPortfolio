@@ -21,7 +21,10 @@ function Hero() {
       </TypeIt>
 
       <h2 className="hero__subtitle">
-        Desarrollador de software
+        Software Developer
+      </h2>
+      <h2 className="hero__subtitle">
+        Backend & Full Stack
       </h2>
 
       <p className="hero__description">
