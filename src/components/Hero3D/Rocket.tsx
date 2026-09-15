@@ -43,29 +43,7 @@ function Rocket() {
     const { scene } = useGLTF(rocketModel);
 
     const rocketRef = useRef<THREE.Group>(null);
-
-    const [flamePosition, setFlamePosition] =
-        useState<[number, number, number]>([0, -0.5, 0]);
-
-    useEffect(() => {
-        const box = new THREE.Box3().setFromObject(scene);
-
-        const center = box.getCenter(new THREE.Vector3());
-
-        scene.position.x -= center.x;
-        scene.position.y -= center.y;
-        scene.position.z -= center.z;
-
-        const centeredBox = new THREE.Box3().setFromObject(scene);
-
-        const bottom = centeredBox.min.y;
-
-        setFlamePosition([
-            0,
-            bottom - 0.2,
-            0
-        ]);
-    }, [scene]);
+    const flamePosition: [number, number, number] = [0.05, -0.1, 0];
 
     useFrame((state) => {
         if (!rocketRef.current) return;
@@ -78,7 +56,7 @@ function Rocket() {
 
     return (
         <group
-            position={[0.3, 0.2, 0]}
+            position={[-0.3, -0.5, 0]}
             rotation={[0, 0, -Math.PI / 6]}
         >
             <group ref={rocketRef}>
