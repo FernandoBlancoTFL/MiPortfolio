@@ -10,7 +10,6 @@ function Hero() {
       <TypeIt
         options={{
           speed: 80,
-          waitUntilVisible: true,
           cursor: true,
         }}
         className="hero-title"

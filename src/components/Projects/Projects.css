@@ -138,6 +138,9 @@
     width: clamp(270px, 75vw, 350px);
     height: clamp(270px, 75vw, 350px);
     flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #6ca2ff;
 }
 
 .project-image img {
@@ -148,6 +151,15 @@
     display: block;
 
     border: 2px solid #6ca2ff;
+
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+@media (hover: hover) {
+    .project-image:hover img {
+        transform: scale(1);
+    }
 }
 
 /* Tablet */

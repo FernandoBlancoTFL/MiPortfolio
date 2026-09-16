@@ -1,4 +1,4 @@
-import dataAnalysisImage from "../../assets/desktop.png";
+import dataAnalysisImage from "../../assets/IA-front2.png";
 import ecommerceImage from "../../assets/Frontpage.png";
 import ScrollReveal from "../ScrollReveal";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +14,7 @@ function Projects() {
         <ScrollReveal>
           <div className="project">
             <div className="project-info">
-              <h3>Plataforma de análisis de datos con agentes de IA</h3>
+              <h3>1. Plataforma de análisis de datos con agentes de IA</h3>
 
               <p>
                 Plataforma web para el análisis de datos mediante agentes de inteligencia artificial. 
@@ -33,11 +33,11 @@ function Projects() {
                 <span>Tailwind CSS</span>
               </div>
               <div className="project-buttons">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://edai-llm-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
                       <span><FiExternalLink className="demo-icon" /> Demo</span>
                   </a>
 
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/FernandoBlancoTFL/edai-llm-backend" target="_blank" rel="noopener noreferrer">
                       <span><FaGithub className="github-icon" /> Código</span>
                   </a>
               </div>
@@ -50,7 +50,7 @@ function Projects() {
         
           <div className="project">
             <div className="project-info">
-              <h3>E-commerce Full Stack</h3>
+              <h3>2. E-commerce Full Stack</h3>
 
               <p>
                 Aplicación web desarrollada para gestionar
@@ -69,11 +69,11 @@ function Projects() {
               </div>
 
               <div className="project-buttons">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://shopneticfb.netlify.app/" target="_blank" rel="noopener noreferrer">
                       <span><FiExternalLink className="demo-icon" /> Demo</span>
                   </a>
 
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/FernandoBlancoTFL/Shopnetic-ecommerce" target="_blank" rel="noopener noreferrer">
                       <span><FaGithub className="social-icon" /> Código</span>
                   </a>
               </div>

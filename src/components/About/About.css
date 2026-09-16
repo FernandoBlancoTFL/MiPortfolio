@@ -1,6 +1,6 @@
 .about {
     justify-items: center;
-    background-color: white;
+    background-color: #EEF2F7;
     width: 100%;
     height: 100%;
     padding-bottom: 40px;
@@ -9,7 +9,7 @@
 
 .about-container h2{
     font-size: 1.7rem;
-    color: black;
+    color: #1A1F26;
 }
 
 .about-container {
@@ -30,7 +30,7 @@
     align-self: center;
 
     gap: 10px;
-    color: black;
+    color: #1A1F26;
 }
 
 .about-message {
@@ -63,7 +63,7 @@
 .techs {
     display: flex;
     flex-wrap: wrap;
-    color: black;
+    color: #1A1F26;
     justify-content: center;
     width: 100%;
     gap: 30px;
