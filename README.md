@@ -1,75 +1,152 @@
-# React + TypeScript + Vite
+# 🚀 Portfolio Personal — Fernando Blanco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado para presentar mi perfil como **Desarrollador Full Stack**, mis principales proyectos, tecnologías y formas de contacto.
 
-Currently, two official plugins are available:
+El proyecto está diseñado con un enfoque **responsive y mobile-first**, buscando una interfaz moderna, clara y atractiva para facilitar la navegación y la visualización de mi experiencia profesional y proyectos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Deploy de la aplicación web
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Puedes ingresar al proyecto en el siguiente enlace:  
+[🔗 Ver Demo](https://mi-portfolio-steel-nine.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Características
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🏠 Página principal con presentación personal.
+- 🚀 Modelo 3D interactivo de un cohete en la sección Hero.
+- 🌌 Fondo animado de estrellas.
+- 👨‍💻 Sección de presentación y perfil profesional.
+- 📂 Sección de proyectos con tecnologías utilizadas y enlaces.
+- 📱 Diseño responsive para dispositivos móviles, tablets y escritorio.
+- 📬 Sección de contacto con enlaces a mis principales plataformas.
+- ⬆️ Botón para volver rápidamente al inicio.
+- ✨ Animaciones y efectos visuales para mejorar la experiencia de usuario.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tecnologías utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Frontend
 
+- **React**
+- **TypeScript**
+- **Vite**
+- **HTML5**
+- **CSS3**
+
+### 3D y animaciones
+
+- **Three.js**
+- **React Three Fiber**
+- **React Three Drei**
+- **TypeIt**
+
+### Herramientas
+
+- **Git**
+- **GitHub**
+- **ESLint**
+- **VS Code**
+
+## 📂 Proyectos destacados
+
+El portfolio incluye algunos de mis principales proyectos, entre ellos:
+
+### 📊 Plataforma de análisis de datos asistido por IA
+
+Aplicación web desarrollada como parte de mi proyecto de tesis, orientada al análisis de datasets mediante modelos de lenguaje y agentes especializados.
+
+**Tecnologías:** Python, FastAPI, LangGraph, PostgreSQL, React, Next.js y Tailwind CSS.
+
+### 🛒 Shopnetic — E-commerce
+
+Aplicación de comercio electrónico desarrollada con una arquitectura Full Stack.
+
+**Tecnologías:** C#, .NET, ASP.NET Core, Entity Framework, SQL Server, React, TypeScript y JWT.
+
+### 🤖 JSW-ObsIA
+
+Proyecto experimental relacionado con inteligencia artificial y procesamiento de información mediante modelos de lenguaje.
+
+## 🚀 Instalación y ejecución
+
+### Requisitos
+
+Para ejecutar el proyecto localmente se necesita tener instalado:
+
+- [Node.js](https://nodejs.org/)
+- npm
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/FernandoBlancoTFL/miportfolio.git
+cd miportfolio
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Instalar dependencias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
+
+### Ejecutar en modo desarrollo
+
+```bash
+npm run dev
+```
+
+Luego acceder a la dirección indicada por Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+### Generar versión de producción
+
+```bash
+npm run build
+```
+
+### Previsualizar la versión de producción
+
+```bash
+npm run preview
+```
+
+## 📁 Estructura general
+
+```text
+miportfolio/
+├── public/
+│   ├── cv/
+│   └── models/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── ...
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+## 👨‍💻 Sobre mí
+
+Soy **Fernando Blanco**, Ingeniero en Informática y Desarrollador Full Stack.
+
+Me interesa especialmente el desarrollo de aplicaciones web, backend, APIs REST, bases de datos y la integración de tecnologías de inteligencia artificial.
+
+Actualmente continúo ampliando mis conocimientos en diferentes tecnologías y frameworks para seguir creciendo profesionalmente en el área de desarrollo de software.
+
+## 📫 Contacto
+
+- **GitHub:** [FernandoBlancoTFL](https://github.com/FernandoBlancoTFL)
+- **LinkedIn:** [Fernando Blanco](https://www.linkedin.com/in/fernando-blanco4/)
+
+---
+
+⭐ Si te interesa conocer más sobre mis proyectos, podés visitar el portfolio o alguno de los repositorios enlazados en él.
