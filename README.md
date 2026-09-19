@@ -9,7 +9,7 @@ El proyecto está diseñado con un enfoque **responsive y mobile-first**, buscan
 ## Deploy de la aplicación web
 
 Puedes ingresar al proyecto en el siguiente enlace:  
-[🔗 Ver Demo](https://mi-portfolio-steel-nine.vercel.app/)
+[🔗 Ver Demo](https://portfolio-blanco-fernando.vercel.app/)
 
 ---
 
